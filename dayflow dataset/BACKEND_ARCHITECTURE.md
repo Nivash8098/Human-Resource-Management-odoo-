@@ -6,7 +6,7 @@ This document outlines the production-ready backend architecture for the Dayflow
 
 ## 1. Domain Models & Database Schema
 
-The database is built on PostgreSQL with Supabase, using foreign keys, cascading constraints, and audit timestamps.
+The database is built on PostgreSQL with Supabase, using foreign keys, cascading constraints, and audit timestamp.
 
 ### Database Tables Summary
 

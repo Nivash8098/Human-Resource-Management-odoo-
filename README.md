@@ -1,20 +1,22 @@
-🌊 Dayflow — Modern HR & Workforce Management Platform
+# Nexora — Modern HR & Workforce Management Platform
 
-Every workday, perfectly aligned.
+**Every workday, perfectly aligned.**
 
-Dayflow is a modern, role-based Human Resources and workforce management platform designed to bring everyday employee operations into one clean and intuitive workspace.
+Nexora is a modern, role-based Human Resources and workforce management platform designed to bring everyday employee operations into one clean and intuitive workspace.
 
 It provides employees and HR administrators with a unified system for attendance, leave management, payroll, employee profiles, documents, notifications, analytics, and reports.
 
 The project focuses on a practical HR workflow with a polished product-style interface rather than looking like a basic academic CRUD application.
 
-🚀 What is Dayflow?
+---
+
+## 🚀 What is Nexora?
 
 Managing employee information across spreadsheets, attendance systems, leave requests, payroll records, and documents can become difficult as an organization grows.
 
-Dayflow solves this by bringing these workflows together in one platform.
+**Nexora** solves this by bringing these workflows together in one platform.
 
-For Employees
+### For Employees
 
 📊 Personal HR dashboard
 
@@ -34,7 +36,7 @@ For Employees
 
 ⚙️ Personal settings
 
-For HR / Administrators
+### For HR / Administrators
 
 📈 HR analytics dashboard
 
@@ -54,153 +56,119 @@ For HR / Administrators
 
 📄 Employee document management
 
-✨ Key Features
+---
 
-🏠 Smart Dashboard
+## ✨ Key Features
 
-Dayflow provides separate dashboards based on the user's role.
+### 🏠 Smart Dashboard
+
+Nexora provides separate dashboards based on the user's role.
 
 The employee dashboard focuses on the individual's workday, while the HR dashboard provides an organization-level view of workforce activity.
 
-⏱️ Attendance Management
+### ⏱️ Attendance Management
 
-Check-in / check-out
+* Check-in / check-out
+* Work mode tracking
+* Attendance history
+* Weekly attendance view
+* Present, leave and half-day status
+* Attendance analytics
 
-Work mode tracking
-
-Attendance history
-
-Weekly attendance view
-
-Present, leave and half-day status
-
-Attendance analytics
-
-🏖️ Leave Management
+### 🏖️ Leave Management
 
 Employees can:
 
-View leave balances
-
-Submit leave requests
-
-Track request status
-
-Cancel pending requests
+* View leave balances
+* Submit leave requests
+* Track request status
+* Cancel pending requests
 
 HR administrators can:
 
-Review requests
+* Review requests
+* Approve or reject leave
+* Add reviewer comments
+* Monitor organization-wide leave activity
 
-Approve or reject leave
+### 💰 Payroll Management
 
-Add reviewer comments
+Nexora supports structured compensation information including:
 
-Monitor organization-wide leave activity
+* Base salary
+* Housing allowance
+* Transport allowance
+* Medical allowance
+* Performance allowance
+* Tax deductions
+* Provident fund
+* Health insurance
+* Payroll status
+* Net salary calculation
 
-💰 Payroll Management
-
-Dayflow supports structured compensation information including:
-
-Base salary
-
-Housing allowance
-
-Transport allowance
-
-Medical allowance
-
-Performance allowance
-
-Tax deductions
-
-Provident fund
-
-Health insurance
-
-Payroll status
-
-Net salary calculation
-
-👥 Employee Management
+### 👥 Employee Management
 
 HR administrators can manage:
 
-Employee profiles
+* Employee profiles
+* Departments
+* Job titles
+* Employee IDs
+* Work modes
+* Access roles
+* Contact information
+* Employment status
 
-Departments
-
-Job titles
-
-Employee IDs
-
-Work modes
-
-Access roles
-
-Contact information
-
-Employment status
-
-📁 Document Management
+### 📁 Document Management
 
 Employees can upload HR/compliance documents through a simple drag-and-drop interface.
 
 Supported document categories include identity and other HR-related records.
 
-🔔 Notifications & Activity
+### 🔔 Notifications & Activity
 
 The application includes notification handling and activity tracking to keep users informed about important HR events.
 
-📊 Reports & Analytics
+### 📊 Reports & Analytics
 
 The reporting area provides workforce-level insights and analytics that can be used to understand:
 
-Attendance trends
+* Attendance trends
+* Workforce distribution
+* Department statistics
+* Leave activity
+* Payroll information
+* HR operational metrics
 
-Workforce distribution
+---
 
-Department statistics
+## 🎨 UI / UX
 
-Leave activity
+Nexora is designed as a modern SaaS-style HR product.
 
-Payroll information
+### Design Goals
 
-HR operational metrics
-
-🎨 UI / UX
-
-Dayflow is designed as a modern SaaS-style HR product.
-
-Design goals
-
-Clean and professional interface
-
-Responsive layouts
-
-Clear visual hierarchy
-
-Role-specific navigation
-
-Reusable UI components
-
-Interactive cards and data views
-
-Smooth page transitions
-
-Useful empty/loading states
-
-Toast notifications for actions
-
-Accessible forms and dialogs
+* Clean and professional interface
+* Responsive layouts
+* Clear visual hierarchy
+* Role-specific navigation
+* Reusable UI components
+* Interactive cards and data views
+* Smooth page transitions
+* Useful empty/loading states
+* Toast notifications for actions
+* Accessible forms and dialogs
 
 The interface uses Tailwind CSS, Lucide icons, Recharts, and Motion to create a responsive and polished experience.
 
-🧠 Architecture
+---
 
-Dayflow follows a modular React architecture.
+## 🧠 Architecture
 
-Dayflow
+Nexora follows a modular React architecture.
+
+```text
+Nexora
 │
 ├── Authentication
 │   ├── Sign In
@@ -238,111 +206,74 @@ Dayflow
     ├── Notification Service
     ├── Activity Service
     └── Analytics Service
+```
 
-🛠️ Technology Stack
+---
 
-Layer
+## 🛠️ Technology Stack
 
-Technology
+| Layer                     | Technology                               |
+| ------------------------- | ---------------------------------------- |
+| Frontend                  | React 19                                 |
+| Language                  | TypeScript                               |
+| Build Tool                | Vite                                     |
+| Styling                   | Tailwind CSS                             |
+| UI Icons                  | Lucide React                             |
+| Animation                 | Motion                                   |
+| Charts                    | Recharts                                 |
+| Backend/API Layer         | Service-based architecture               |
+| Database Integration      | Supabase                                 |
+| AI Integration            | Google Gemini API                        |
+| Runtime                   | Node.js                                  |
+| State / Local Persistence | Browser localStorage + application store |
 
-Frontend
+---
 
-React 19
+## 🔐 Data & Persistence
 
-Language
-
-TypeScript
-
-Build Tool
-
-Vite
-
-Styling
-
-Tailwind CSS
-
-UI Icons
-
-Lucide React
-
-Animation
-
-Motion
-
-Charts
-
-Recharts
-
-Backend/API Layer
-
-Service-based architecture
-
-Database Integration
-
-Supabase
-
-AI Integration
-
-Google Gemini API
-
-Runtime
-
-Node.js
-
-State / Local Persistence
-
-Browser localStorage + application store
-
-🔐 Data & Persistence
-
-Dayflow is structured with a service layer so the UI does not directly depend on database implementation details.
+Nexora is structured with a service layer so the UI does not directly depend on database implementation details.
 
 The project includes:
 
-Authentication services
-
-Employee services
-
-Attendance services
-
-Leave services
-
-Payroll services
-
-Document services
-
-Notification services
-
-Activity services
-
-Analytics services
+* Authentication services
+* Employee services
+* Attendance services
+* Leave services
+* Payroll services
+* Document services
+* Notification services
+* Activity services
+* Analytics services
 
 The application also contains a local persistence/store layer using browser storage, making the project easy to run and demonstrate locally.
 
 Supabase configuration is supported through environment variables for database-backed deployments.
 
-🤖 AI Integration
+---
 
-Dayflow includes Google Gemini integration capability for AI-powered functionality.
+## 🤖 AI Integration
+
+Nexora includes Google Gemini integration capability for AI-powered functionality.
 
 The project expects the following environment variable when AI functionality is enabled:
 
+```env
 GEMINI_API_KEY=your_gemini_api_key
+```
 
 AI functionality can be extended for areas such as:
 
-HR insights
+* HR insights
+* Workforce summaries
+* Report generation
+* Attendance analysis
+* Employee productivity insights
 
-Workforce summaries
+---
 
-Report generation
+## 📁 Project Structure
 
-Attendance analysis
-
-Employee productivity insights
-
-📁 Project Structure
-
+```text
 src/
 │
 ├── components/
@@ -375,30 +306,37 @@ src/
 │
 ├── App.tsx
 └── index.css
+```
 
-⚙️ Getting Started
+---
 
-Prerequisites
+## ⚙️ Getting Started
+
+### Prerequisites
 
 Make sure you have installed:
 
-Node.js 18+
+* Node.js 18+
+* npm
 
-npm
+### 1. Clone the repository
 
-1. Clone the repository
-
+```bash
 git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd dayflow
+cd nexora
+```
 
-2. Install dependencies
+### 2. Install dependencies
 
+```bash
 npm install
+```
 
-3. Configure environment variables
+### 3. Configure environment variables
 
-Create a .env.local file:
+Create a `.env.local` file:
 
+```env
 GEMINI_API_KEY=your_gemini_api_key
 APP_URL=http://localhost:3000
 
@@ -407,90 +345,85 @@ VITE_SUPABASE_ANON_KEY=your-anon-key
 
 SUPABASE_URL=https://your-project.supabase.co
 SUPABASE_PUBLISHABLE_KEY=your-publishable-key
+```
 
 Only add the keys required by the features you are using.
 
-4. Start the development server
+### 4. Start the development server
 
+```bash
 npm run dev
+```
 
 The application will be available at:
 
+```text
 http://localhost:3000
+```
 
-5. Create a production build
+### 5. Create a production build
 
+```bash
 npm run build
+```
 
-6. Preview the production build
+### 6. Preview the production build
 
+```bash
 npm run preview
+```
 
-7. Type-check the project
+### 7. Type-check the project
 
+```bash
 npm run lint
+```
 
-🧪 Testing
+---
+
+## 🧪 Testing
 
 The project contains a test runner and can be executed with:
 
+```bash
 npm test
+```
 
-👨‍💻 Team
+---
 
-Dayflow is developed by a 3-member team with dedicated responsibilities across frontend, backend, database, and testing.
+## 👨‍💻 Team
 
-Member
+Nexora is developed by a 3-member team with dedicated responsibilities across frontend, backend, database, and testing.
 
-Role
+| Member  | Role                             | Responsibility                                                         | Contact                                                         |
+| ------- | -------------------------------- | ---------------------------------------------------------------------- | --------------------------------------------------------------- |
+| Nivash  | Team Leader · Frontend Developer | UI/UX, React frontend, component architecture, application flow        | [nivashvash1@gmail.com](mailto:nivashvash1@gmail.com)           |
+| Nithish | Team Member · Database & Tester  | Database/persistence, data validation, testing and quality assurance   | [rnithish18122006@gmail.com](mailto:rnithish18122006@gmail.com) |
+| Pranesh | Team Member · Backend Developer  | Backend services, API/service architecture and server-side integration | [pranesh2598@gmail.com](mailto:pranesh2598@gmail.com)           |
 
-Responsibility
+---
 
-Contact
+## 👑 Team Leadership
 
-Nivash
-
-Team Leader · Frontend Developer
-
-UI/UX, React frontend, component architecture, application flow
-
-nivashvash1@gmail.com
-
-Nithish
-
-Team Member · Database & Tester
-
-Database/persistence, data validation, testing and quality assurance
-
-rnithish18122006@gmail.com
-
-Pranesh
-
-Team Member · Backend Developer
-
-Backend services, API/service architecture and server-side integration
-
-pranesh2598@gmail.com
-
-👑 Team Leadership
-
-Nivash — Team Leader & Frontend
+### Nivash — Team Leader & Frontend
 
 Responsible for coordinating the team and leading the frontend implementation, UI/UX direction, reusable components, and user-facing application experience.
 
-🗄️ Database & QA
+### 🗄️ Database & QA
 
-Nithish — Database & Tester
+**Nithish — Database & Tester**
 
 Responsible for persistence design, data handling, validation, testing workflows, bug identification, and ensuring the application behaves correctly across different use cases.
 
-⚙️ Backend
+### ⚙️ Backend
 
-Pranesh — Backend Developer
+**Pranesh — Backend Developer**
 
 Responsible for backend/service implementation, API integration, business logic, and connecting application features with the data layer.
 
-🗺️ Future Improvements
+---
+
+## 🗺️ Future Improvements
 
 Possible future enhancements include:
 
@@ -518,21 +451,27 @@ Possible future enhancements include:
 
 🧩 More HR workflow integrations
 
-🎯 Project Vision
+---
 
-Dayflow aims to make HR operations simpler, more transparent, and easier to manage by combining everyday workforce workflows into a single platform.
+## 🎯 Project Vision
 
-Instead of treating attendance, leave, payroll, employee information, documents, and reports as separate systems, Dayflow brings them together into one connected experience.
+Nexora aims to make HR operations simpler, more transparent, and easier to manage by combining everyday workforce workflows into a single platform.
 
-Dayflow — One workspace for the entire workday.
+Instead of treating attendance, leave, payroll, employee information, documents, and reports as separate systems, **Nexora** brings them together into one connected experience.
 
-📄 License
+**Nexora — Every workday, perfectly aligned.**
+
+---
+
+## 📄 License
 
 This project is developed as a team project for educational, demonstration, and hackathon purposes.
 
-⭐ Support the Project
+---
 
-If you find Dayflow useful or interesting:
+## ⭐ Support the Project
+
+If you find Nexora useful or interesting:
 
 ⭐ Star the repository
 
@@ -544,4 +483,4 @@ If you find Dayflow useful or interesting:
 
 🤝 Contribute to the project
 
-Built with React, TypeScript, Supabase, Gemini, and a lot of teamwork.
+**Built with React, TypeScript, Supabase, Gemini, and a lot of teamwork.**

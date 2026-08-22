@@ -1,6 +1,0 @@
-{
-  "name": "Dayflow",
-  "description": "A modern Human Resource Management System for employees and HR admins. Every workday, perfectly aligned.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
